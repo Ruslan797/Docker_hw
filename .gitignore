@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Docker
+*.pid
+
+# Data (оставляем только output.txt)
+data/*.*
+!data/output.txt
