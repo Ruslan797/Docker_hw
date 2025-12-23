@@ -19,6 +19,15 @@ venv/
 # Docker
 *.pid
 
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+
+
 # Data (оставляем только output.txt)
 data/*.*
 !data/output.txt
+
